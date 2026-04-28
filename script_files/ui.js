@@ -1,5 +1,6 @@
-function initUI() {}
+function initUI(){}
 
-function updateUI() {
-    document.getElementById("ammo").textContent = "30";
+function updateUI(){
+    document.getElementById("ammo").textContent =
+        currentWeapon.ammo ?? 0;
 }
